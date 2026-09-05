@@ -30,7 +30,8 @@ namespace HotelBookingAPI_Project.Controllers
                              RoomNumber=b.Room.RoomNumber,
                              PricePerNight=b.Room.PricePerNight,
                              TotalPrice=Math.Round(b.Room.PricePerNight * (decimal)(b.CheckOutDate!.Value - b.CheckInDate!.Value).TotalDays,2),
-                             CustomerName=b.Customer!.Name,
+                             NumberOfNights= (b.CheckOutDate!.Value - b.CheckInDate!.Value).Days,
+                             CustomerName =b.Customer!.Name,
                              CheckInDate=b.CheckInDate,
                              CheckOutDate=b.CheckOutDate,
                              BookingDate=b.Bookingdate,
@@ -50,6 +51,7 @@ namespace HotelBookingAPI_Project.Controllers
                               RoomNumber = b.Room.RoomNumber,
                               PricePerNight = b.Room.PricePerNight,
                               TotalPrice = Math.Round(b.Room.PricePerNight * (decimal)(b.CheckOutDate!.Value - b.CheckInDate!.Value).TotalDays, 2),
+                              NumberOfNights = (b.CheckOutDate!.Value - b.CheckInDate!.Value).Days,
                               CustomerName = b.Customer!.Name,
                               CheckInDate = b.CheckInDate,
                               CheckOutDate = b.CheckOutDate,
@@ -68,9 +70,19 @@ namespace HotelBookingAPI_Project.Controllers
         {
             var room = await _context.Rooms.FirstOrDefaultAsync(r => r.Id == bookingCreateDto.RoomId);
 
-            if(room == null)
+            if (room == null)
             {
                 return NotFound("Room not found.");
+            }
+
+            if (bookingCreateDto.CheckInDate < DateTime.Today)
+            {
+                return BadRequest("Invalid check in date time less then today.");
+            }
+
+            if (bookingCreateDto.CheckInDate >= bookingCreateDto.CheckOutDate)
+            {
+                return BadRequest("Check-in date must be before check-out date.");
             }
 
             var customer = await _context.Customers.FirstOrDefaultAsync(c => c.Id == bookingCreateDto.CustomerId);
@@ -142,6 +154,16 @@ namespace HotelBookingAPI_Project.Controllers
                 return BadRequest("Booking Not Found.");
             }
 
+            if (bookingUpdateDto.CheckInDate < DateTime.Today)
+            {
+                return BadRequest("Invalid check in date time less then today.");
+            }
+
+            if (bookingUpdateDto.CheckInDate >= bookingUpdateDto.CheckOutDate)
+            {
+                return BadRequest("Check-in date must be before check-out date.");
+            }
+
             if (booking.Status == "Cancel")
             {
                 return BadRequest("Cancelled booking cannot be updated.");
@@ -166,6 +188,77 @@ namespace HotelBookingAPI_Project.Controllers
             booking.CheckOutDate=bookingUpdateDto.CheckOutDate;
 
             await _context.SaveChangesAsync();
+
+            return Ok(booking);
+        }
+
+
+        [HttpGet("customer/{CustomerId}")]
+        public async Task<IActionResult> GetBookingByCustomer(int CustomerId)
+        {
+            var booking = await _context.Bookings.Where(b => b.CustomerId == CustomerId).
+                Select(b => new BookingResponseDto
+                {
+                    Id = b.Id,
+                    HotelName = b.Room!.Hotel!.Name,
+                    RoomNumber = b.Room.RoomNumber,
+                    PricePerNight = b.Room.PricePerNight,
+                    TotalPrice = Math.Round(b.Room.PricePerNight * (decimal)(b.CheckOutDate!.Value - b.CheckInDate!.Value).TotalDays, 2),
+                    CustomerName = b.Customer!.Name,
+                    CheckInDate = b.CheckInDate,
+                    CheckOutDate = b.CheckOutDate,
+                    BookingDate = b.Bookingdate,
+                    Status = b.Status
+                }).ToListAsync();
+
+            return Ok(booking);
+        }
+
+
+        [HttpGet("Status/{status}")]
+        public async Task<IActionResult> GetBookingByStatus(string status)
+        {
+            var book = await _context.Bookings.Where(b => b.Status.ToLower()==status.ToLower()).
+                           Select(b => new BookingResponseDto
+                           {
+                               Id = b.Id,
+                               HotelName = b.Room!.Hotel!.Name,
+                               RoomNumber = b.Room.RoomNumber,
+                               PricePerNight = b.Room.PricePerNight,
+                               TotalPrice = Math.Round(b.Room.PricePerNight * (decimal)(b.CheckOutDate!.Value - b.CheckInDate!.Value).TotalDays, 2),
+                               CustomerName = b.Customer!.Name,
+                               CheckInDate = b.CheckInDate,
+                               CheckOutDate = b.CheckOutDate,
+                               BookingDate = b.Bookingdate,
+                               Status = b.Status
+                           }).ToListAsync();
+            return Ok(book);
+        }
+
+        [HttpGet("search/date/{Date}")]
+        public async Task<IActionResult> GetBookingByDate(DateTime Date)
+        {
+            var booking = await _context.Bookings.
+                Include(b=>b.Customer).
+                Include(b=>b.Room).
+                Include(b=>b.Room!.Hotel)
+                .Where(b => 
+                b.CheckInDate <= Date&&b.CheckOutDate>Date&&b.Status=="Confirmed"
+                ).Select(b=>new BookingResponseDto
+                {
+                    Id = b.Id,
+                    HotelName = b.Room!.Hotel!.Name,
+                    RoomNumber = b.Room.RoomNumber,
+                    PricePerNight = b.Room.PricePerNight,
+                    TotalPrice = b.Room.PricePerNight *
+                         (decimal)(b.CheckOutDate!.Value - b.CheckInDate!.Value).TotalDays,
+                    NumberOfNights = (b.CheckOutDate!.Value - b.CheckInDate!.Value).Days,
+                    CustomerName = b.Customer!.Name,
+                    CheckInDate = b.CheckInDate,
+                    CheckOutDate = b.CheckOutDate,
+                    BookingDate = b.Bookingdate,
+                    Status = b.Status
+                }).ToListAsync();
 
             return Ok(booking);
         }

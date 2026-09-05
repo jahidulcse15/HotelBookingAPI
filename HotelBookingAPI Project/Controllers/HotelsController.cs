@@ -61,10 +61,19 @@ namespace HotelBookingAPI_Project.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateHotel(HotelCreateDto hotelCreateDto)
         {
+            
             if (!ModelState.IsValid)
             {
                 return BadRequest("Mode is not Valid.");
             }
+
+            var findUser = await _context.Hotels.AnyAsync(h => h.Email.ToLower() == hotelCreateDto.Email.ToLower());
+
+            if (findUser)
+            {
+                return Conflict("this email already exists.");
+            }
+
             var hotel = new Hotel
             {
                 Name= hotelCreateDto.Name,
@@ -82,6 +91,18 @@ namespace HotelBookingAPI_Project.Controllers
         [HttpPut("id")]
         public async Task<IActionResult> Update(int id,HotelUpdateDto hotelUpdateDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Model State in Invalid.");
+            }
+
+            var findUser = await _context.Hotels.AnyAsync(c => c.Email.ToLower() == hotelUpdateDto.Email.ToLower()&&id!=c.Id);
+
+            if (findUser)
+            {
+                return Conflict("this email already exists.");
+            }
+
             var hotel=await _context.Hotels.FirstOrDefaultAsync(x => x.Id == id);
 
             if (hotel == null)
@@ -110,6 +131,72 @@ namespace HotelBookingAPI_Project.Controllers
             _context.Hotels.Remove(hotel);
             await _context.SaveChangesAsync();
             return NoContent();
+        }
+
+
+        [HttpGet("hotel/{HotelId}")]
+        public async Task<IActionResult> GetHotelById(int HotelId)
+        {
+            var hotel = await _context.Rooms.Where(b => b.HotelId == HotelId).
+                Select(b => new RoomResponseDto
+                {
+                    Id=b.Id,
+                    RoomNumber=b.RoomNumber,
+                    PricePerNight=b.PricePerNight,
+                    RoomType=b.RoomType,
+                    HotelName=b.Hotel!.Name,
+                    HotelId=b.HotelId,
+                    IsAvaiable=b.IsAvaiable
+                }).ToListAsync();
+            return Ok(hotel);
+        }
+
+        [HttpGet("hotel/search/{City}")]
+        public async Task<IActionResult> GetHotelByCity(string City)
+        {
+            var hotel = await _context.Hotels.Where(h => h.City.ToLower() == City.ToLower()).
+                Select(h=>new HotelResponseDto
+                {
+                    Id=h.Id,
+                    Name=h.Name,
+                    Email=h.Email,
+                    Phone=h.Phone,
+                    City=h.City,
+                    Address=h.Address,
+                    Description=h.Description
+                }).ToListAsync();
+
+            return Ok(hotel);
+        }
+
+
+        [HttpGet("hotel/search/nameCity")]
+        public async Task<IActionResult> GetHotelByNameCity([FromQuery] string? Name, [FromQuery]string? City)
+        {
+            var hotel = _context.Hotels.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(Name))
+            {
+                hotel = hotel.Where(h => h.Name.ToLower() == Name.ToLower());
+            }
+
+            if (!string.IsNullOrWhiteSpace(City))
+            {
+                hotel = hotel.Where(h => h.City.ToLower() == City.ToLower());
+            }
+
+            var hotelroom =await hotel.Select(h =>new HotelResponseDto
+            {
+                Id = h.Id,
+                Name = h.Name,
+                Email = h.Email,
+                Phone = h.Phone,
+                City = h.City,
+                Address = h.Address,
+                Description = h.Description
+            }).ToListAsync();
+
+            return Ok(hotelroom);
         }
     }
 }

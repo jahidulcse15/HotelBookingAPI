@@ -8,6 +8,7 @@
         public int RoomNumber { get; set; } 
         public decimal PricePerNight { get; set; }
         public decimal TotalPrice { get; set; }
+        public int NumberOfNights { get; set; }
         public string CustomerName { get; set; } = string.Empty;
 
         public DateTime? CheckInDate { get; set; }

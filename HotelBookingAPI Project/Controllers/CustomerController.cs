@@ -55,6 +55,18 @@ namespace HotelBookingAPI_Project.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateCustomer(CustomerCreateDto customerCreateDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Model State Invalid.");
+            }
+
+            var findUser = await _context.Customers.AnyAsync(c => c.Email.ToLower() == customerCreateDto.Email.ToLower());
+
+            if (findUser)
+            {
+                return Conflict("This Email already Uses.Please Enter Another Email Id.");
+            }
+
             var customer = new Customer
             {
                 Name= customerCreateDto.Name,
@@ -71,10 +83,21 @@ namespace HotelBookingAPI_Project.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id,CustomerUpdateDto customerUpdateDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Model State Invalid");
+            }
             var customer = await _context.Customers.FirstOrDefaultAsync(c => c.Id == id);
             if(customer== null)
             {
                 return NotFound();
+            }
+
+            var findUser = await _context.Customers.AnyAsync(c => c.Email.ToList() == customerUpdateDto.Email.ToList() && id != c.Id);
+
+            if (customer.Email.ToLower() == customerUpdateDto.Email.ToLower())
+            {
+                return Conflict("this email already exists.");
             }
 
             customer.Name=customerUpdateDto.Name;
@@ -100,6 +123,34 @@ namespace HotelBookingAPI_Project.Controllers
             _context.Customers.Remove(customer);
             await _context.SaveChangesAsync();
             return NoContent();
+        }
+
+        [HttpGet("customer/search/NameEmail")]
+        public async Task<IActionResult> GetCustomerByNameEmail([FromQuery]string? Name, [FromQuery]string? Email)
+        {
+            var customer = _context.Customers.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(Name))
+            {
+                customer = customer.Where(c => c.Name.ToLower() == Name.ToLower());
+            }
+
+
+            if (!string.IsNullOrWhiteSpace(Email))
+            {
+                customer = customer.Where(c => c.Email.ToLower() == Email.ToLower());
+            }
+
+            var Customer = await customer.Select(c => new CustomerResponseDto
+            {
+                Id=c.Id,
+                Name=c.Name,
+                Email=c.Email,
+                Phone=c.Phone,
+                Address=c.Address
+            }).ToListAsync();
+
+            return Ok(Customer);
         }
     }
 }
