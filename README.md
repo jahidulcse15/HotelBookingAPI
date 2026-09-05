@@ -19,7 +19,7 @@ A RESTful Hotel Booking API built with **ASP.NET Core Web API**, **Entity Framew
 
 ---
 
-## ✨ Features
+##  Features
 
 - 🏨 Hotel Management
 - 🛏️ Room Management
