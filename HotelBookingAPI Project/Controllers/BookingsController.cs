@@ -1,12 +1,14 @@
 ﻿using HotelBookingAPI_Project.Data;
 using HotelBookingAPI_Project.DTOs;
 using HotelBookingAPI_Project.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.Design;
 
 namespace HotelBookingAPI_Project.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class BookingsController:ControllerBase

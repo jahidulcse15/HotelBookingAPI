@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\bookingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\bookingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\services\\tokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\services\\tokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Migrations\\20260906114403_AddUserAuthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelBookingAPI Project\\Migrations\\20260906114403_AddUserAuthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\bookingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,54 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\bookingupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\bookingupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\createroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\createroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\roomresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\roomresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\hotelupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\hotelupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\hotelresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\hotelresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|c:\\project\\codesln course task\\asp.net core\\hotelbookingapi project\\hotelbookingapi project\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5DC824D-C277-5776-442F-DFC9D3ADB5A2}|HotelBookingAPI Project\\HotelBookingAPI Project.csproj|solutionrelative:hotelbookingapi project\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,24 +70,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T14:46:07.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\Controllers\\HotelsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T14:45:37.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAA2wAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T14:26:27.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T13:42:46.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Program.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Program.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Program.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAADwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T13:40:09.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenServices.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Services\\TokenServices.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Services\\TokenServices.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Services\\TokenServices.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\Services\\TokenServices.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T13:25:37.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T11:52:01.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T11:48:27.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T11:48:12.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260906114403_AddUserAuthentication.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Migrations\\20260906114403_AddUserAuthentication.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Migrations\\20260906114403_AddUserAuthentication.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Migrations\\20260906114403_AddUserAuthentication.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\Migrations\\20260906114403_AddUserAuthentication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T11:44:04.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbcontext.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Data\\ApplicationDbcontext.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Data\\ApplicationDbcontext.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Data\\ApplicationDbcontext.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\Data\\ApplicationDbcontext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T11:38:34.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Models\\User.cs",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Models\\User.cs",
+              "RelativeToolTip": "HotelBookingAPI Project\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T11:34:59.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelBookingAPI Project\\appsettings.json",
+              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\appsettings.json",
+              "RelativeToolTip": "HotelBookingAPI Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-06T11:31:28.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "BookingUpdateDto.cs",
               "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\BookingUpdateDto.cs",
               "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\BookingUpdateDto.cs",
               "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\BookingUpdateDto.cs",
               "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\BookingUpdateDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABSwA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-05T18:19:45.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "BookingCreateDto.cs",
               "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\BookingCreateDto.cs",
               "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\BookingCreateDto.cs",
@@ -100,188 +265,6 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAA4wA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-05T18:17:24.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookingResponseDto.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\BookingResponseDto.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\BookingResponseDto.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\BookingResponseDto.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\BookingResponseDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIBAwAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T18:10:33.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateRoomDto.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\CreateRoomDto.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\CreateRoomDto.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\CreateRoomDto.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\CreateRoomDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T17:55:24.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateDto.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\UpdateDto.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\UpdateDto.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\UpdateDto.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\UpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T17:52:21.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HotelUpdateDto.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\HotelUpdateDto.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\HotelUpdateDto.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\HotelUpdateDto.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\HotelUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T17:32:04.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HotelResponseDto.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\HotelResponseDto.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\HotelResponseDto.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\HotelResponseDto.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\HotelResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T17:30:56.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CustomerUpdateDto.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\CustomerUpdateDto.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\CustomerUpdateDto.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\CustomerUpdateDto.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\CustomerUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T17:22:04.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CustomerCreateDto.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\CustomerCreateDto.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\CustomerCreateDto.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\CustomerCreateDto.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\CustomerCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T17:07:48.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CustomerResponseDto.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\CustomerResponseDto.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\CustomerResponseDto.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\CustomerResponseDto.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\CustomerResponseDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T16:58:49.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAA3wF0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T16:53:59.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RoomsController.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\RoomsController.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Controllers\\RoomsController.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\RoomsController.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\Controllers\\RoomsController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAApwFoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:11:57.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoomResponseDto.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\RoomResponseDto.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\DTOs\\RoomResponseDto.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\DTOs\\RoomResponseDto.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\DTOs\\RoomResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:11:03.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Models\\Room.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Models\\Room.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Models\\Room.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\Models\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:07:31.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HotelsController.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\HotelsController.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Controllers\\HotelsController.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\HotelsController.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\Controllers\\HotelsController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwEUAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T10:03:01.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingsController.cs",
-              "DocumentMoniker": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\BookingsController.cs",
-              "RelativeDocumentMoniker": "HotelBookingAPI Project\\Controllers\\BookingsController.cs",
-              "ToolTip": "C:\\Project\\CodeSLN Course Task\\Asp.Net Core\\HotelBookingAPI Project\\HotelBookingAPI Project\\Controllers\\BookingsController.cs",
-              "RelativeToolTip": "HotelBookingAPI Project\\Controllers\\BookingsController.cs",
-              "ViewState": "AgIAAPAAAAAAAAAAAAA1wPcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T09:42:53.259Z",
               "EditorCaption": ""
             }
           ]

@@ -168,3 +168,7 @@ C:\Project\CodeSLN Course Task\Asp.Net Core\HotelBookingAPI Project\HotelBooking
 C:\Project\CodeSLN Course Task\Asp.Net Core\HotelBookingAPI Project\HotelBookingAPI Project\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Project\CodeSLN Course Task\Asp.Net Core\HotelBookingAPI Project\HotelBookingAPI Project\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Project\CodeSLN Course Task\Asp.Net Core\HotelBookingAPI Project\HotelBookingAPI Project\obj\Debug\net10.0\HotelBookingAPI Project.sourcelink.json
+C:\Project\CodeSLN Course Task\Asp.Net Core\HotelBookingAPI Project\HotelBookingAPI Project\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Project\CodeSLN Course Task\Asp.Net Core\HotelBookingAPI Project\HotelBookingAPI Project\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Project\CodeSLN Course Task\Asp.Net Core\HotelBookingAPI Project\HotelBookingAPI Project\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Project\CodeSLN Course Task\Asp.Net Core\HotelBookingAPI Project\HotelBookingAPI Project\bin\Debug\net10.0\BCrypt-Net-Next.dll
