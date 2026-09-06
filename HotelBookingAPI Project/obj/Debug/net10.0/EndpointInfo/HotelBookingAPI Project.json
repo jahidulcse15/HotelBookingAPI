@@ -1160,33 +1160,48 @@
         "additionalProperties": false
       },
       "LoginDto": {
+        "required": [
+          "email",
+          "password"
+        ],
         "type": "object",
         "properties": {
           "email": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "email"
           },
           "password": {
+            "maxLength": 20,
+            "minLength": 8,
             "type": "string",
-            "nullable": true
+            "format": "password"
           }
         },
         "additionalProperties": false
       },
       "RegisterDto": {
+        "required": [
+          "email",
+          "name",
+          "password"
+        ],
         "type": "object",
         "properties": {
           "name": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "email": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "email"
           },
           "password": {
+            "maxLength": 20,
+            "minLength": 8,
             "type": "string",
-            "nullable": true
+            "format": "password"
           }
         },
         "additionalProperties": false
